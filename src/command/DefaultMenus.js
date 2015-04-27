@@ -188,6 +188,12 @@ define(function (require, exports, module) {
         menu.addMenuDivider();
         menu.addMenuItem(Commands.HELP_SHOW_EXT_FOLDER);
 
+        /* 
+         * Custom CMSC448Project menu
+         */
+        menu = Menus.addMenu("CMSC448 Team 4", "Custom project-menu");
+        
+        
 
         var hasAboutItem = (brackets.platform !== "mac" || !brackets.nativeMenus);
         
